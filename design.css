@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family:  Times, serif;
+    color: white;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin:2rem auto;
+    padding:0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+
+}
+#name{
+    margin-bottom: 1rem;
+
+}
+#quote{
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+    max-width: 78 rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding:0px 0px 0px 1rem ;
+    text-align: center;
+    font-size: 3rem;
+}
+#img{
+    max-width: 20rem;
+    margin-left: auto;
+}
+.biography{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+#headbio
+{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+#headp{
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+hr{
+    margin-top: 2rem;
+}
